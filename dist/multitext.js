@@ -1,4 +1,5 @@
-define(function() {
+define(['snap'],
+function(Snap) {
 	return Snap.plugin(function (Snap, Element, Paper, glob) {
 	    Paper.prototype.multitext = function (x, y, text) {
 	        text = text.split("\n");
